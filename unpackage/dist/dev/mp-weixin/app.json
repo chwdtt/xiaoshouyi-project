@@ -13,10 +13,6 @@
     "navigationBarBackgroundColor": "#fff",
     "backgroundColor": "#fff"
   },
-  "permission": {
-    "scope.userLocation": {
-      "desc": "D:/workspace/xiaoshouyi-project/unpackage/dist/build/mp-weixin"
-    }
-  },
+  "permission": {},
   "usingComponents": {}
 }

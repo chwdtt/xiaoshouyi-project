@@ -57,15 +57,12 @@
         /* 小程序特有相关 */
         "appid" : "wx308955061f080f46",
         "setting" : {
-            "urlCheck" : false,
-            "es6" : false,
-            "postcss" : false
+            "urlCheck" : true,
+            "es6" : true,
+            "postcss" : true,
+            "minified" : true
         },
         "usingComponents" : true,
-        "permission" : {
-            "scope.userLocation" : {
-                "desc" : "D:/workspace/xiaoshouyi-project/unpackage/dist/build/mp-weixin"
-            }
-        }
+        "permission" : {}
     }
 }

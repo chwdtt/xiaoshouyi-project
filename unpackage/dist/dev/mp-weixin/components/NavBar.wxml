@@ -1,0 +1,1 @@
+<view class="nav-bar" bind:__l="__l"><view class="back"><navigator url="login">取消</navigator></view><view class="title">设置登录地址</view><view class="custom-address">+</view></view>

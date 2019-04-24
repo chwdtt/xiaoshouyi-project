@@ -35,9 +35,11 @@
 			},
 			toPage(page) {
 				uni.navigateTo({
-					url: page
+					url: `${page}?id=1`
 				});
 			}
+		},
+		mounted() {
 		}
 	}
 </script>
@@ -46,7 +48,10 @@
 	// 最外层
 	.login-wrap {
 		background: linear-gradient(to bottom, #998fea 0%,#12057b 100%);
-		height: 100vh;
+		height: 93.4vh;
+		/* #ifdef MP-WEIXIN */
+			height: 100vh;
+		/* #endif */
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

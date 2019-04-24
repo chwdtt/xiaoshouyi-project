@@ -25,7 +25,11 @@
 			"path": "pages/login/setting",
 			"style": {
 				"navigationBarTitleText": "设置登录地址",
-				"navigationBarBackgroundColor": "#FFFFFF"
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
 			}
 		}
         ,{

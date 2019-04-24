@@ -19,7 +19,7 @@
 	export default {
 		data() {
 			return {
-				
+				username:''
 			}
 		},
 		methods: {
@@ -33,7 +33,10 @@
 		display: flex;
 		flex-direction: column;
 		background: #e8e8f1;
-		height: 100vh;
+		height: 93.4vh;
+		/* #ifdef MP-WEIXIN */
+			height: 100vh;
+		/* #endif */
 		.experience-info {
 			font-size: 28upx;
 			text-align: left;

@@ -10,7 +10,7 @@
 			</view>
 		</view>
 		<view class="email-box">
-			<navigator url="">用邮箱注册</navigator>
+			<navigator open-type="navigate" url="regsiter?id=2">用邮箱注册</navigator>
 		</view>
 	</view>
 </template>
@@ -19,10 +19,16 @@
 	export default {
 		data() {
 			return {
+				id: 1,
+				username: '',
 				placeholder: '输入手机号'
 			}
 		},
-		mounted() {
+		onLoad(options) {
+			this.id = Number(options.id);
+			if(this.id !== 1){
+				this.placeholder = '输入邮箱'
+			}
 		},
 		methods: {
 			
@@ -35,7 +41,10 @@
 		display: flex;
 		flex-direction: column;
 		background: #e8e8f1;
-		height: 100vh;
+		height: 93.4vh;
+		/* #ifdef MP-WEIXIN */
+			height: 100vh;
+		/* #endif */
 		.register-info {
 			font-size: 28upx;
 			text-align: left;

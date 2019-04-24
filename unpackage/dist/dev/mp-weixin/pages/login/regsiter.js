@@ -29,10 +29,16 @@ var _default =
 {
   data: function data() {
     return {
+      id: 1,
+      username: '',
       placeholder: '输入手机号' };
 
   },
-  mounted: function mounted() {
+  onLoad: function onLoad(options) {
+    this.id = Number(options.id);
+    if (this.id !== 1) {
+      this.placeholder = '输入邮箱';
+    }
   },
   methods: {} };exports.default = _default;
 
