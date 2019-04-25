@@ -47,11 +47,7 @@
     font-size: 28rpx;
 }
 .login-wrap.data-v-055c0798 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#998fea), to(#12057b));
-  background: -o-linear-gradient(top, #998fea 0%, #12057b 100%);
-  background: linear-gradient(to bottom, #998fea 0%, #12057b 100%);
   height: 100vh;
-
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -76,7 +72,7 @@
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    height: 35vw;
+    height: 58vw;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
         -ms-flex-pack: center;
@@ -99,11 +95,9 @@
     width: 86%;
     padding: 0 7%;
     font-size: 30rpx;
-    margin-top: 80rpx;
 }
 .login-wrap .login-form .username.data-v-055c0798,
     .login-wrap .login-form .password.data-v-055c0798 {
-      width: calc(100% - 90rpx);
       height: 90rpx;
       display: -webkit-box;
       display: -webkit-flex;
@@ -113,7 +107,7 @@
       -webkit-align-items: center;
           -ms-flex-align: center;
               align-items: center;
-      border-radius: 45rpx;
+      border-radius: 12rpx;
       background-color: rgba(255, 255, 255, 0.1);
       padding: 0 45rpx;
       margin-bottom: 26rpx;

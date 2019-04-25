@@ -1,8 +1,11 @@
 <template>
 	<view class="login-setting-wrap">
-		<view class="status_bar">
-        </view>
-		<NavBar title="设置登录地址" leftText="取消" icon="+" url="login"></NavBar>
+		<cu-custom bgColor="bg-blue" isBack="true">
+			<view slot="content">设置登录地址</view>
+			<view slot="right">
+				<navigator class="custom-address" url="customSetting">+</navigator>
+			</view>
+		</cu-custom>
 		<view class="setting-list">
 			<radio-group @change="radioChange">
 				<view class="list" v-for="(item, index) in items" :key="item.value">
@@ -69,17 +72,17 @@
 
 <style lang="scss" scoped>
 	@import '../../static/common.scss';
-	.status_bar {
-        height: var(--status-bar-height);
-        width: 100%;
-    }
 	.login-setting-wrap {
 		background: #e8e8f1;
 		height: $pageHeight;
 		overflow-y: hidden;
 		.setting-list {
 			margin-top: 24upx;
+			radio-group {
+				width: 100%;
+			}
 			view.list {
+				width: 100%;
 				display: flex;
 				height: 80upx;
 				background: #fff;
@@ -91,7 +94,10 @@
 			}
 		}
 		.radio-box {
-			margin-right: -14upx;
+		}
+		.custom-address {
+			font-size: 58upx;
+			margin-right: 26upx;
 		}
 	}
 </style>

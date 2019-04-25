@@ -52,9 +52,9 @@
 		},
 		methods: {
 			BackPage() {
-				uni.navigateBack({
-					delta: 1
-				});
+				uni.navigateTo({
+					url:'login'
+				})
 			}
 		}
 	}

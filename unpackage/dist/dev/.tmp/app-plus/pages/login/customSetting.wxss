@@ -55,9 +55,6 @@
   height: 100vh;
   overflow-y: hidden;
 }
-.login-custom-setting-wrap .custom-setting-content.data-v-5f0f286a {
-    margin-top: 30rpx;
-}
 .login-custom-setting-wrap .username.data-v-5f0f286a {
     border-bottom: 1px solid #c8c7cc;
 }

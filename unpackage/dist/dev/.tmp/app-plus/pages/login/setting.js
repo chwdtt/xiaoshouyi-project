@@ -8,7 +8,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var NavBar = function NavBar() {return __webpack_require__.e(/*! import() | components/NavBar */ "components/NavBar").then(__webpack_require__.bind(null, /*! @/components/NavBar.vue */ "D:\\workspace\\xiaoshouyi-project\\components\\NavBar.vue"));};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var NavBar = function NavBar() {return __webpack_require__.e(/*! import() | components/NavBar */ "components/NavBar").then(__webpack_require__.bind(null, /*! @/components/NavBar.vue */ "D:\\workspace\\xiaoshouyi-project\\components\\NavBar.vue"));};var _default =
+
+
+
 
 
 
@@ -28,28 +31,6 @@
 
 {
   onLaunch: function onLaunch() {
-    debugger;
-    uni.getSystemInfo({
-      success: function success(e) {
-
-        Vue.prototype.StatusBar = e.statusBarHeight;
-        if (e.platform == 'android') {
-          Vue.prototype.CustomBar = e.statusBarHeight + 50;
-        } else {
-          Vue.prototype.CustomBar = e.statusBarHeight + 45;
-        };
-
-
-
-
-
-
-
-
-
-
-
-      } });
 
   },
   components: {
@@ -95,7 +76,6 @@
         }
       }
     } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 

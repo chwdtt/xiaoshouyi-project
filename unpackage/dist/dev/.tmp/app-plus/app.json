@@ -12,7 +12,8 @@
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "销售易",
     "navigationBarBackgroundColor": "#fff",
-    "backgroundColor": "#fff"
+    "backgroundColor": "#fff",
+    "navigationStyle": "custom"
   },
   "splashscreen": {
     "alwaysShowBeforeRender": true,
@@ -20,5 +21,7 @@
   },
   "appname": "梅西第一版",
   "compilerVersion": "1.9.3",
-  "usingComponents": {}
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
 }

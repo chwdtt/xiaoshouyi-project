@@ -1,5 +1,8 @@
 <template>
 	<view class="experience-wrap">
+		<cu-custom bgColor="bg-blue" isBack="true">
+			<view slot="content">快速体验</view>
+		</cu-custom>
 		<view class="experience-info">验证手机号，即可进入模拟演示环境，尽情体验销售易的功能</view>
 		<view class="experience-content">
 			<view class="username">
@@ -10,7 +13,7 @@
 			</view>
 		</view>
 		<view class="email-box">
-			<navigator url="">用邮箱注册</navigator>
+			<navigator open-type="navigate" url="regsiter?id=2">用邮箱注册</navigator>
 		</view>
 	</view>
 </template>

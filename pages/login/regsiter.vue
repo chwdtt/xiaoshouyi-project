@@ -1,12 +1,15 @@
 <template>
 	<view class="register-wrap">
+		<cu-custom bgColor="bg-blue" isBack="true">
+			<view slot="content">新用户注册</view>
+		</cu-custom>
 		<view class="register-info">注册成功后将获取30天免费试用</view>
 		<view class="register-content">
 			<view class="username common-form-input">
 				<input :placeholder="placeholder" v-model="username" placeholder-style="color: rgba(102,102,102,0.8);"/>
 			</view>
 			<view class="message-btn">
-				<button type="primary">获取验证码</button>
+				<button class="bg-blue">获取验证码</button>
 			</view>
 		</view>
 		<view class="email-box">
@@ -40,12 +43,8 @@
 	@import '../../static/common.scss';
 	.register-wrap {
 		display: flex;
-		flex-direction: column;
-		background: #e8e8f1;
 		height: $pageHeight;
-		/* #ifdef H5 */
-			height: $pageHeightAndH5;
-		/* #endif */
+		flex-direction: column;
 		.register-info {
 			font-size: 28upx;
 			text-align: left;

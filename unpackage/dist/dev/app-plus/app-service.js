@@ -1061,37 +1061,58 @@ function gz$gwx_1(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_1)return __WXML_GLOBAL__.ops_cached.$gwx_1
 __WXML_GLOBAL__.ops_cached.$gwx_1=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__l'])
+Z([[4],[[5],[[5],[[5],[1,'cu-bar fixed']],[[2,'?:'],[[2,'!='],[[7],[3,'bgImage']],[1,'']],[1,'none-bg text-white bg-img'],[1,'']]],[[7],[3,'bgColor']]]])
+Z([[7],[3,'style']])
+Z([[7],[3,'isBack']])
+Z([3,'__e'])
+Z([3,'action'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'BackPage']],[[4],[[5],[1,'$event']]]]]]]]]]])
+Z([3,'backText'])
+Z([3,'content'])
+Z([3,'right'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_1);return __WXML_GLOBAL__.ops_cached.$gwx_1
 }
 function gz$gwx_2(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
 __WXML_GLOBAL__.ops_cached.$gwx_2=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'__l'])
-Z([3,'login-custom-setting-wrap data-v-5f0f286a'])
-Z([3,'data-v-5f0f286a'])
-Z([3,'false'])
-Z([3,'取消'])
-Z([3,'自定义登录地址'])
-Z([3,'setting'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
 }
 function gz$gwx_3(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
 __WXML_GLOBAL__.ops_cached.$gwx_3=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__l'])
+Z([3,'login-custom-setting-wrap data-v-5f0f286a'])
+Z([3,'bg-blue'])
+Z([3,'data-v-5f0f286a'])
+Z([3,'true'])
+Z([[4],[[5],[1,'content']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
 }
 function gz$gwx_4(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
 __WXML_GLOBAL__.ops_cached.$gwx_4=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__l'])
+Z([3,'experience-wrap data-v-4d336fa2'])
+Z([3,'bg-blue'])
+Z([3,'data-v-4d336fa2'])
+Z([3,'true'])
+Z([[4],[[5],[1,'content']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
 }
 function gz$gwx_5(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
 __WXML_GLOBAL__.ops_cached.$gwx_5=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__l'])
+Z([3,'forget-password-wrap data-v-373e690d'])
+Z([3,'bg-blue'])
+Z([3,'data-v-373e690d'])
+Z([3,'true'])
+Z([[4],[[5],[1,'content']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
 }
 function gz$gwx_6(){
@@ -1104,47 +1125,116 @@ function gz$gwx_7(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
 __WXML_GLOBAL__.ops_cached.$gwx_7=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__l'])
+Z([3,'register-wrap data-v-bc345508'])
+Z([3,'bg-blue'])
+Z([3,'data-v-bc345508'])
+Z([3,'true'])
+Z([[4],[[5],[1,'content']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
+}
+function gz$gwx_8(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
+__WXML_GLOBAL__.ops_cached.$gwx_8=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__l'])
+Z([3,'login-setting-wrap data-v-4bdf224a'])
+Z([3,'bg-blue'])
+Z([3,'data-v-4bdf224a'])
+Z([3,'true'])
+Z([[4],[[5],[[5],[1,'content']],[1,'right']]])
+})(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./components/NavBar.wxml','./pages/login/customSetting.wxml','./pages/login/experience.wxml','./pages/login/forgetPassWord.wxml','./pages/login/login.wxml','./pages/login/regsiter.wxml','./pages/login/setting.wxml'];d_[x[0]]={}
+var x=['./colorui/components/cu-custom.wxml','./components/NavBar.wxml','./pages/login/customSetting.wxml','./pages/login/experience.wxml','./pages/login/forgetPassWord.wxml','./pages/login/login.wxml','./pages/login/regsiter.wxml','./pages/login/setting.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
+cs.push("./colorui/components/cu-custom.wxml:view:1:1")
+var oB=_n('view')
+_rz(z,oB,'bind:__l',0,e,s,gg)
+cs.push("./colorui/components/cu-custom.wxml:view:1:89")
+var xC=_mz(z,'view',['class',1,'style',1],[],e,s,gg)
+var oD=_v()
+_(xC,oD)
+if(_oz(z,3,e,s,gg)){oD.wxVkey=1
+cs.push("./colorui/components/cu-custom.wxml:block:1:195")
+cs.push("./colorui/components/cu-custom.wxml:view:1:221")
+var fE=_mz(z,'view',['bindtap',4,'class',1,'data-event-opts',2],[],e,s,gg)
+cs.push("./colorui/components/cu-custom.wxml:slot:1:347")
+var cF=_n('slot')
+_rz(z,cF,'name',7,e,s,gg)
+cs.pop()
+_(fE,cF)
+cs.pop()
+_(oD,fE)
+cs.pop()
+}
+cs.push("./colorui/components/cu-custom.wxml:slot:1:453")
+var hG=_n('slot')
+_rz(z,hG,'name',8,e,s,gg)
+cs.pop()
+_(xC,hG)
+cs.push("./colorui/components/cu-custom.wxml:slot:1:488")
+var oH=_n('slot')
+_rz(z,oH,'name',9,e,s,gg)
+cs.pop()
+_(xC,oH)
+oD.wxXCkey=1
+cs.pop()
+_(oB,xC)
+cs.pop()
+_(r,oB)
 return r
 }
 e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
 d_[x[1]]={}
 var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
-cs.push("./pages/login/customSetting.wxml:view:1:1")
-var xC=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
-cs.push("./pages/login/customSetting.wxml:nav-bar:1:72")
-var oD=_mz(z,'nav-bar',['class',2,'icon',1,'leftText',2,'title',3,'url',4],[],e,s,gg)
-cs.pop()
-_(xC,oD)
-cs.pop()
-_(r,xC)
 return r
 }
 e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
 d_[x[2]]={}
 var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
+cs.push("./pages/login/customSetting.wxml:view:1:1")
+var lK=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/login/customSetting.wxml:cu-custom:1:72")
+var aL=_mz(z,'cu-custom',['bgColor',2,'class',1,'isBack',2,'vueSlots',3],[],e,s,gg)
+cs.pop()
+_(lK,aL)
+cs.pop()
+_(r,lK)
 return r
 }
 e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
 d_[x[3]]={}
 var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
+cs.push("./pages/login/experience.wxml:view:1:1")
+var eN=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/login/experience.wxml:cu-custom:1:62")
+var bO=_mz(z,'cu-custom',['bgColor',2,'class',1,'isBack',2,'vueSlots',3],[],e,s,gg)
+cs.pop()
+_(eN,bO)
+cs.pop()
+_(r,eN)
 return r
 }
 e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
 d_[x[4]]={}
 var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
+cs.push("./pages/login/forgetPassWord.wxml:view:1:1")
+var xQ=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/login/forgetPassWord.wxml:cu-custom:1:67")
+var oR=_mz(z,'cu-custom',['bgColor',2,'class',1,'isBack',2,'vueSlots',3],[],e,s,gg)
+cs.pop()
+_(xQ,oR)
+cs.pop()
+_(r,xQ)
 return r
 }
 e_[x[4]]={f:m4,j:[],i:[],ti:[],ic:[]}
@@ -1157,9 +1247,31 @@ e_[x[5]]={f:m5,j:[],i:[],ti:[],ic:[]}
 d_[x[6]]={}
 var m6=function(e,s,r,gg){
 var z=gz$gwx_7()
+cs.push("./pages/login/regsiter.wxml:view:1:1")
+var hU=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/login/regsiter.wxml:cu-custom:1:60")
+var oV=_mz(z,'cu-custom',['bgColor',2,'class',1,'isBack',2,'vueSlots',3],[],e,s,gg)
+cs.pop()
+_(hU,oV)
+cs.pop()
+_(r,hU)
 return r
 }
 e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
+d_[x[7]]={}
+var m7=function(e,s,r,gg){
+var z=gz$gwx_8()
+cs.push("./pages/login/setting.wxml:view:1:1")
+var oX=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/login/setting.wxml:cu-custom:1:65")
+var lY=_mz(z,'cu-custom',['bgColor',2,'class',1,'isBack',2,'vueSlots',3],[],e,s,gg)
+cs.pop()
+_(oX,lY)
+cs.pop()
+_(r,oX)
+return r
+}
+e_[x[7]]={f:m7,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -1180,28 +1292,31 @@ return root;
 
 
 
-__wxAppCode__['app.json']={"pages":["pages/login/login","pages/login/regsiter","pages/login/experience","pages/login/setting","pages/login/customSetting","pages/login/forgetPassWord"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"销售易","navigationBarBackgroundColor":"#fff","backgroundColor":"#fff"},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"梅西第一版","compilerVersion":"1.9.3","usingComponents":{}};
+__wxAppCode__['app.json']={"pages":["pages/login/login","pages/login/regsiter","pages/login/experience","pages/login/setting","pages/login/customSetting","pages/login/forgetPassWord"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"销售易","navigationBarBackgroundColor":"#fff","backgroundColor":"#fff","navigationStyle":"custom"},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"梅西第一版","compilerVersion":"1.9.3","usingComponents":{"cu-custom":"/colorui/components/cu-custom"}};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
+
+__wxAppCode__['colorui/components/cu-custom.json']={"usingComponents":{},"component":true};
+__wxAppCode__['colorui/components/cu-custom.wxml']=$gwx('./colorui/components/cu-custom.wxml');
 
 __wxAppCode__['components/NavBar.json']={"usingComponents":{},"component":true};
 __wxAppCode__['components/NavBar.wxml']=$gwx('./components/NavBar.wxml');
 
-__wxAppCode__['pages/login/customSetting.json']={"navigationBarTitleText":"自定义登录地址","navigationBarBackgroundColor":"#FFFFFF","navigationStyle":"custom","titleNView":false,"usingComponents":{"nav-bar":"/components/NavBar"}};
+__wxAppCode__['pages/login/customSetting.json']={"navigationBarTitleText":"自定义登录地址","navigationBarBackgroundColor":"#FFFFFF","navigationStyle":"custom","usingComponents":{"cu-custom":"/colorui/components/cu-custom","nav-bar":"/components/NavBar"}};
 __wxAppCode__['pages/login/customSetting.wxml']=$gwx('./pages/login/customSetting.wxml');
 
-__wxAppCode__['pages/login/experience.json']={"navigationBarTitleText":"快速体验","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{}};
+__wxAppCode__['pages/login/experience.json']={"navigationBarTitleText":"快速体验","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{"cu-custom":"/colorui/components/cu-custom"}};
 __wxAppCode__['pages/login/experience.wxml']=$gwx('./pages/login/experience.wxml');
 
-__wxAppCode__['pages/login/forgetPassWord.json']={"navigationBarTitleText":"重置密码","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{}};
+__wxAppCode__['pages/login/forgetPassWord.json']={"navigationBarTitleText":"重置密码","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{"cu-custom":"/colorui/components/cu-custom"}};
 __wxAppCode__['pages/login/forgetPassWord.wxml']=$gwx('./pages/login/forgetPassWord.wxml');
 
 __wxAppCode__['pages/login/login.json']={"navigationBarTitleText":"","navigationBarBackgroundColor":"#998fea","usingComponents":{}};
 __wxAppCode__['pages/login/login.wxml']=$gwx('./pages/login/login.wxml');
 
-__wxAppCode__['pages/login/regsiter.json']={"navigationBarTitleText":"新用户注册","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{}};
+__wxAppCode__['pages/login/regsiter.json']={"navigationBarTitleText":"新用户注册","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{"cu-custom":"/colorui/components/cu-custom"}};
 __wxAppCode__['pages/login/regsiter.wxml']=$gwx('./pages/login/regsiter.wxml');
 
-__wxAppCode__['pages/login/setting.json']={"navigationBarTitleText":"设置登录地址","navigationBarBackgroundColor":"#FFFFFF","titleNView":false,"usingComponents":{"nav-bar":"/components/NavBar"}};
+__wxAppCode__['pages/login/setting.json']={"navigationBarTitleText":"设置登录地址","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{"cu-custom":"/colorui/components/cu-custom","nav-bar":"/components/NavBar"}};
 __wxAppCode__['pages/login/setting.wxml']=$gwx('./pages/login/setting.wxml');
 
 
@@ -1217,17 +1332,120 @@ define('common/main.js',function(require, module, exports, window, document, fra
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
 {
   onLaunch: function onLaunch() {
-    console.log('App Launch', " at App.vue:4");
+    uni.getSystemInfo({
+      success: function success(e) {
+
+        _vue.default.prototype.StatusBar = e.statusBarHeight;
+        if (e.platform == 'android') {
+          _vue.default.prototype.CustomBar = e.statusBarHeight + 50;
+        } else {
+          _vue.default.prototype.CustomBar = e.statusBarHeight + 45;
+        };
+
+
+
+
+
+
+
+
+
+
+
+
+
+      } });
+
+
+    _vue.default.prototype.ColorList = [{
+      title: '嫣红',
+      name: 'red',
+      color: '#e54d42' },
+
+    {
+      title: '桔橙',
+      name: 'orange',
+      color: '#f37b1d' },
+
+    {
+      title: '明黄',
+      name: 'yellow',
+      color: '#fbbd08' },
+
+    {
+      title: '橄榄',
+      name: 'olive',
+      color: '#8dc63f' },
+
+    {
+      title: '森绿',
+      name: 'green',
+      color: '#39b54a' },
+
+    {
+      title: '天青',
+      name: 'cyan',
+      color: '#1cbbb4' },
+
+    {
+      title: '海蓝',
+      name: 'blue',
+      color: '#0081ff' },
+
+    {
+      title: '姹紫',
+      name: 'purple',
+      color: '#6739b6' },
+
+    {
+      title: '木槿',
+      name: 'mauve',
+      color: '#9c26b0' },
+
+    {
+      title: '桃粉',
+      name: 'pink',
+      color: '#e03997' },
+
+    {
+      title: '棕褐',
+      name: 'brown',
+      color: '#a5673f' },
+
+    {
+      title: '玄灰',
+      name: 'grey',
+      color: '#8799a3' },
+
+    {
+      title: '草灰',
+      name: 'gray',
+      color: '#aaaaaa' },
+
+    {
+      title: '墨黑',
+      name: 'black',
+      color: '#333333' },
+
+    {
+      title: '雅白',
+      name: 'white',
+      color: '#ffffff' }];
+
+
+
   },
   onShow: function onShow() {
-    console.log('App Show', " at App.vue:7");
+    console.log('App Show', " at App.vue:109");
   },
   onHide: function onHide() {
-    console.log('App Hide', " at App.vue:10");
+    console.log('App Hide', " at App.vue:112");
   } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 
@@ -1424,7 +1642,7 @@ define('common/runtime.js',function(require, module, exports, window, document, 
     /******/if (installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
     /******/else if (installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
         /******/promises.push(installedCssChunks[chunkId] = new Promise(function (resolve, reject) {
-          /******/var href = "" + ({ "components/NavBar": "components/NavBar" }[chunkId] || chunkId) + ".wxss";
+          /******/var href = "" + ({ "colorui/components/cu-custom": "colorui/components/cu-custom", "components/NavBar": "components/NavBar" }[chunkId] || chunkId) + ".wxss";
           /******/var fullhref = __webpack_require__.p + href;
           /******/var existingLinkTags = document.getElementsByTagName("link");
           /******/for (var i = 0; i < existingLinkTags.length; i++) {
@@ -8651,8 +8869,12 @@ module.exports = g;
 /* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ "D:\\workspace\\xiaoshouyi-project\\pages.json");
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
 var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "D:\\workspace\\xiaoshouyi-project\\App.vue"));
+
 __webpack_require__(/*! colorui/main.css */ "D:\\workspace\\xiaoshouyi-project\\colorui\\main.css");
-__webpack_require__(/*! colorui/icon.css */ "D:\\workspace\\xiaoshouyi-project\\colorui\\icon.css");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
+__webpack_require__(/*! colorui/icon.css */ "D:\\workspace\\xiaoshouyi-project\\colorui\\icon.css");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var cuCustom = function cuCustom() {return __webpack_require__.e(/*! import() | colorui/components/cu-custom */ "colorui/components/cu-custom").then(__webpack_require__.bind(null, /*! ./colorui/components/cu-custom.vue */ "D:\\workspace\\xiaoshouyi-project\\colorui\\components\\cu-custom.vue"));};
+
+
+_vue.default.component('cu-custom', cuCustom);
 
 _vue.default.config.productionTip = false;
 
@@ -8790,6 +9012,187 @@ require('./common/main.js')
 });
 require('app.js');
 
+__wxRoute = 'colorui/components/cu-custom';__wxRouteBegin = true;__wxAppCurrentFile__ = 'colorui/components/cu-custom.js';
+
+define('colorui/components/cu-custom.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+"use strict";(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["colorui/components/cu-custom"], {
+
+  /***/"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\workspace\\xiaoshouyi-project\\colorui\\components\\cu-custom.vue?vue&type=script&lang=js&":
+  /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+                                                                                                                                                                                                                                                                                                                                                  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/workspace/xiaoshouyi-project/colorui/components/cu-custom.vue?vue&type=script&lang=js& ***!
+                                                                                                                                                                                                                                                                                                                                                  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+  /*! no static exports found */
+  /***/function node_modulesBabelLoaderLibIndexJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibScriptJsNode_modulesVueLoaderLibIndexJsDWorkspaceXiaoshouyiProjectColoruiComponentsCuCustomVueVueTypeScriptLangJs(module, exports, __webpack_require__) {
+
+    "use strict";
+    /* WEBPACK VAR INJECTION */(function (uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      var _default =
+      {
+        data: function data() {
+          return {
+            StatusBar: this.StatusBar,
+            CustomBar: this.CustomBar };
+
+        },
+        name: 'cu-custom',
+        computed: {
+          style: function style() {
+            var StatusBar = this.StatusBar;
+            var CustomBar = this.CustomBar;
+            var bgImage = this.bgImage;
+            var style = "height:".concat(CustomBar, "px;padding-top:").concat(StatusBar, "px;");
+            if (this.bgImage) {
+              style = "".concat(style, "background-image:url(").concat(bgImage, ");");
+            }
+            return style;
+          } },
+
+        props: {
+          bgColor: {
+            type: String,
+            default: '' },
+
+          isBack: {
+            type: [Boolean, String],
+            default: false },
+
+          bgImage: {
+            type: String,
+            default: '' } },
+
+
+        methods: {
+          BackPage: function BackPage() {
+            uni.navigateTo({
+              url: 'login' });
+
+          } } };exports.default = _default;
+      /* WEBPACK VAR INJECTION */}).call(this, __webpack_require__( /*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */"./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]);
+
+    /***/},
+
+  /***/"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\workspace\\xiaoshouyi-project\\colorui\\components\\cu-custom.vue?vue&type=template&id=11d32882&":
+  /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+                                                                                                                                                                                                                                                                                                                                                                          !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/workspace/xiaoshouyi-project/colorui/components/cu-custom.vue?vue&type=template&id=11d32882& ***!
+                                                                                                                                                                                                                                                                                                                                                                          \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+  /*! exports provided: render, staticRenderFns */
+  /***/function node_modulesVueLoaderLibLoadersTemplateLoaderJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibTemplateJsNode_modulesVueLoaderLibIndexJsDWorkspaceXiaoshouyiProjectColoruiComponentsCuCustomVueVueTypeTemplateId11d32882(module, __webpack_exports__, __webpack_require__) {
+
+    "use strict";
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */__webpack_require__.d(__webpack_exports__, "render", function () {return render;});
+    /* harmony export (binding) */__webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {return staticRenderFns;});
+    var render = function render() {
+      var _vm = this;
+      var _h = _vm.$createElement;
+      var _c = _vm._self._c || _h;
+    };
+    var staticRenderFns = [];
+    render._withStripped = true;
+
+
+
+    /***/},
+
+  /***/"D:\\workspace\\xiaoshouyi-project\\colorui\\components\\cu-custom.vue":
+  /*!************************************************************************!*\
+                                                                                  !*** D:/workspace/xiaoshouyi-project/colorui/components/cu-custom.vue ***!
+                                                                                  \************************************************************************/
+  /*! no static exports found */
+  /***/function DWorkspaceXiaoshouyiProjectColoruiComponentsCuCustomVue(module, __webpack_exports__, __webpack_require__) {
+
+    "use strict";
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony import */var _cu_custom_vue_vue_type_template_id_11d32882___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! ./cu-custom.vue?vue&type=template&id=11d32882& */"D:\\workspace\\xiaoshouyi-project\\colorui\\components\\cu-custom.vue?vue&type=template&id=11d32882&");
+    /* harmony import */var _cu_custom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__( /*! ./cu-custom.vue?vue&type=script&lang=js& */"D:\\workspace\\xiaoshouyi-project\\colorui\\components\\cu-custom.vue?vue&type=script&lang=js&");
+    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _cu_custom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _cu_custom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key];});})(__WEBPACK_IMPORT_KEY__);}
+    /* harmony import */var _C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__( /*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */"./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+    /* normalize component */
+
+    var component = Object(_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+    _cu_custom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+    _cu_custom_vue_vue_type_template_id_11d32882___WEBPACK_IMPORTED_MODULE_0__["render"],
+    _cu_custom_vue_vue_type_template_id_11d32882___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+    false,
+    null,
+    null,
+    null);
+
+
+
+    /* hot reload */
+    if (false) {var api;}
+    component.options.__file = "D:/workspace/xiaoshouyi-project/colorui/components/cu-custom.vue";
+    /* harmony default export */__webpack_exports__["default"] = component.exports;
+
+    /***/},
+
+  /***/"D:\\workspace\\xiaoshouyi-project\\colorui\\components\\cu-custom.vue?vue&type=script&lang=js&":
+  /*!*************************************************************************************************!*\
+                                                                                                           !*** D:/workspace/xiaoshouyi-project/colorui/components/cu-custom.vue?vue&type=script&lang=js& ***!
+                                                                                                           \*************************************************************************************************/
+  /*! no static exports found */
+  /***/function DWorkspaceXiaoshouyiProjectColoruiComponentsCuCustomVueVueTypeScriptLangJs(module, __webpack_exports__, __webpack_require__) {
+
+    "use strict";
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony import */var _C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cu_custom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./cu-custom.vue?vue&type=script&lang=js& */"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\workspace\\xiaoshouyi-project\\colorui\\components\\cu-custom.vue?vue&type=script&lang=js&");
+    /* harmony import */var _C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cu_custom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cu_custom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cu_custom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cu_custom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key];});})(__WEBPACK_IMPORT_KEY__);}
+    /* harmony default export */__webpack_exports__["default"] = _C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cu_custom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a;
+
+    /***/},
+
+  /***/"D:\\workspace\\xiaoshouyi-project\\colorui\\components\\cu-custom.vue?vue&type=template&id=11d32882&":
+  /*!*******************************************************************************************************!*\
+                                                                                                                 !*** D:/workspace/xiaoshouyi-project/colorui/components/cu-custom.vue?vue&type=template&id=11d32882& ***!
+                                                                                                                 \*******************************************************************************************************/
+  /*! exports provided: render, staticRenderFns */
+  /***/function DWorkspaceXiaoshouyiProjectColoruiComponentsCuCustomVueVueTypeTemplateId11d32882(module, __webpack_exports__, __webpack_require__) {
+
+    "use strict";
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony import */var _C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cu_custom_vue_vue_type_template_id_11d32882___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./cu-custom.vue?vue&type=template&id=11d32882& */"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\workspace\\xiaoshouyi-project\\colorui\\components\\cu-custom.vue?vue&type=template&id=11d32882&");
+    /* harmony reexport (safe) */__webpack_require__.d(__webpack_exports__, "render", function () {return _C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cu_custom_vue_vue_type_template_id_11d32882___WEBPACK_IMPORTED_MODULE_0__["render"];});
+
+    /* harmony reexport (safe) */__webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {return _C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_Users_Administrator_Downloads_HBuilderX_1_8_2_20190401_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cu_custom_vue_vue_type_template_id_11d32882___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"];});
+
+
+
+    /***/} }]);
+
+
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+'colorui/components/cu-custom-create-component',
+{
+  'colorui/components/cu-custom-create-component': function coloruiComponentsCuCustomCreateComponent(module, exports, __webpack_require__) {
+    __webpack_require__('./node_modules/@dcloudio/uni-app-plus/dist/index.js')['createComponent'](__webpack_require__("D:\\workspace\\xiaoshouyi-project\\colorui\\components\\cu-custom.vue"));
+  } },
+
+[['colorui/components/cu-custom-create-component']]]);
+});
+require('colorui/components/cu-custom.js');
 __wxRoute = 'components/NavBar';__wxRouteBegin = true;__wxAppCurrentFile__ = 'components/NavBar.js';
 
 define('components/NavBar.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -9184,6 +9587,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
 var _default =
 {
   data: function data() {
@@ -9360,6 +9766,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
 var _default =
 {
   data: function data() {
@@ -9511,7 +9920,10 @@ define('pages/login/setting.js',function(require, module, exports, window, docum
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var NavBar = function NavBar() {return __webpack_require__.e(/*! import() | components/NavBar */ "components/NavBar").then(__webpack_require__.bind(null, /*! @/components/NavBar.vue */ "D:\\workspace\\xiaoshouyi-project\\components\\NavBar.vue"));};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var NavBar = function NavBar() {return __webpack_require__.e(/*! import() | components/NavBar */ "components/NavBar").then(__webpack_require__.bind(null, /*! @/components/NavBar.vue */ "D:\\workspace\\xiaoshouyi-project\\components\\NavBar.vue"));};var _default =
+
+
+
 
 
 
@@ -9531,28 +9943,6 @@ define('pages/login/setting.js',function(require, module, exports, window, docum
 
 {
   onLaunch: function onLaunch() {
-    debugger;
-    uni.getSystemInfo({
-      success: function success(e) {
-
-        Vue.prototype.StatusBar = e.statusBarHeight;
-        if (e.platform == 'android') {
-          Vue.prototype.CustomBar = e.statusBarHeight + 50;
-        } else {
-          Vue.prototype.CustomBar = e.statusBarHeight + 45;
-        };
-
-
-
-
-
-
-
-
-
-
-
-      } });
 
   },
   components: {
@@ -9598,7 +9988,6 @@ define('pages/login/setting.js',function(require, module, exports, window, docum
         }
       }
     } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 
@@ -9743,6 +10132,8 @@ define('pages/login/customSetting.js',function(require, module, exports, window,
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var NavBar = function NavBar() {return __webpack_require__.e(/*! import() | components/NavBar */ "components/NavBar").then(__webpack_require__.bind(null, /*! ../../components/NavBar.vue */ "D:\\workspace\\xiaoshouyi-project\\components\\NavBar.vue"));};var _default =
+
+
 
 
 
@@ -9922,6 +10313,9 @@ define('pages/login/forgetPassWord.js',function(require, module, exports, window
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+//
+//
+//
 //
 //
 //

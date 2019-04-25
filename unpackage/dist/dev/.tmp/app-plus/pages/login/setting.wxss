@@ -46,10 +46,6 @@
     font-weight: 200;
     font-size: 28rpx;
 }
-.status_bar.data-v-4bdf224a {
-  height: var(--status-bar-height);
-  width: 100%;
-}
 .login-setting-wrap.data-v-4bdf224a {
   background: #e8e8f1;
   height: 100vh;
@@ -58,7 +54,11 @@
 .login-setting-wrap .setting-list.data-v-4bdf224a {
     margin-top: 24rpx;
 }
+.login-setting-wrap .setting-list radio-group.data-v-4bdf224a {
+      width: 100%;
+}
 .login-setting-wrap .setting-list view.list.data-v-4bdf224a {
+      width: 100%;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -77,7 +77,8 @@
       font-size: 30rpx;
       border-bottom: 1px solid #ccc;
 }
-.login-setting-wrap .radio-box.data-v-4bdf224a {
-    margin-right: -14rpx;
+.login-setting-wrap .custom-address.data-v-4bdf224a {
+    font-size: 58rpx;
+    margin-right: 26rpx;
 }
 

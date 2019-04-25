@@ -1,5 +1,8 @@
 <template>
 	<view class="forget-password-wrap">
+		<cu-custom bgColor="bg-blue" isBack="true">
+			<view slot="content">重置密码</view>
+		</cu-custom>
 		<view class="forget-password-info">找回密码功能将停用您当前的密码，请在验证身份后设置新密码</view>
 		<view class="forget-password-content">
 			<view class="username">
@@ -33,11 +36,7 @@
 	.forget-password-wrap {
 		display: flex;
 		flex-direction: column;
-		background: #e8e8f1;
 		height: $pageHeight;
-		/* #ifdef H5 */
-			height: $pageHeightAndH5;
-		/* #endif */
 		.forget-password-info {
 			font-size: 28upx;
 			text-align: left;

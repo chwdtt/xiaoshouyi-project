@@ -1,8 +1,8 @@
 {
   "navigationBarTitleText": "设置登录地址",
   "navigationBarBackgroundColor": "#FFFFFF",
-  "titleNView": false,
   "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
     "nav-bar": "/components/NavBar"
   }
 }

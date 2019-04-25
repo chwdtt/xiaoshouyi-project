@@ -1,6 +1,8 @@
 <template>
 	<view class="login-custom-setting-wrap">
-		<NavBar title="自定义登录地址" leftText="取消" icon="false" url="setting"></NavBar>
+		<cu-custom bgColor="bg-blue" isBack="true">
+			<view slot="content">自定义登录地址</view>
+		</cu-custom>
 		<view class="custom-setting-content">
 			<view class="common-form-input username">
 				<input placeholder="请输入名称" v-model="username" placeholder-style="color: rgba(102,102,102,0.8);"/>
@@ -49,9 +51,7 @@
 		background: #e8e8f1;
 		height: $pageHeight;
 		overflow-y: hidden;
-		.custom-setting-content {
-			margin-top: 30upx;
-		}
+		
 		.username {
 			border-bottom: 1px solid $uni-border-color;
 		}
