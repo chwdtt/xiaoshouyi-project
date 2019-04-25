@@ -2,7 +2,7 @@
 	<view class="register-wrap">
 		<view class="register-info">注册成功后将获取30天免费试用</view>
 		<view class="register-content">
-			<view class="username">
+			<view class="username common-form-input">
 				<input :placeholder="placeholder" v-model="username" placeholder-style="color: rgba(102,102,102,0.8);"/>
 			</view>
 			<view class="message-btn">
@@ -36,39 +36,25 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+	@import '../../static/common.scss';
 	.register-wrap {
 		display: flex;
 		flex-direction: column;
 		background: #e8e8f1;
-		height: 93.4vh;
-		/* #ifdef MP-WEIXIN */
-			height: 100vh;
+		height: $pageHeight;
+		/* #ifdef H5 */
+			height: $pageHeightAndH5;
 		/* #endif */
 		.register-info {
 			font-size: 28upx;
 			text-align: left;
 			padding: 30upx 4%;
-			color: rgba($color: #666, $alpha: 0.8);
-		}
-		.username {
-			width: 100%;
-			height: 90upx;
-			display: flex;
-			align-items: center;
-			background-color: #fff;
-			padding: 0 4%;
-			margin-bottom: 26upx;
-			input {
-				width: 100%;
-				height: 50upx;
-				color: #666;
-				font-weight: 200;
-				font-size: 28upx;
-			}
+			color: $alphaBlack8;
 		}
 		.message-btn {
-			padding: 0 4%
+			padding: 0 4%;
+			margin-top: 30upx;
 		}
 		.register-content {
 			flex: 12;

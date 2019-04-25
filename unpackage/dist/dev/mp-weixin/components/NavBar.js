@@ -18,13 +18,22 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
 var _default =
 {
+  props: {
+    title: String,
+    leftText: String,
+    icon: String,
+    url: String },
+
   data: function data() {
     return {};
 
 
-  } };exports.default = _default;
+  },
+  methods: {} };exports.default = _default;
 
 /***/ }),
 

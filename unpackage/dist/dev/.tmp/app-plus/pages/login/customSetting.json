@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "自定义登录地址",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "nav-bar": "/components/NavBar"
+  }
+}

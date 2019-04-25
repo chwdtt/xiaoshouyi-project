@@ -4,6 +4,7 @@
     "pages/login/regsiter",
     "pages/login/experience",
     "pages/login/setting",
+    "pages/login/customSetting",
     "pages/login/forgetPassWord"
   ],
   "subPackages": [],

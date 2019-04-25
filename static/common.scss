@@ -1,0 +1,35 @@
+/* 公共尺寸 */
+
+// 每个页面的高度
+$pageHeight: 100vh;
+// h5中除去nav的高度
+$pageHeightAndH5: 93.4vh;
+
+
+$font30: 30upx;
+$font26: 26upx;
+
+
+
+
+
+$alpha1:rgba($color: #ffffff, $alpha: 0.1);
+$alphaBlack8: rgba($color: #000000, $alpha: 0.8);
+$alpha8: rgba($color: #ffffff, $alpha: 0.8);
+
+
+.common-form-input {
+	width: 100%;
+	height: 90upx;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	padding: 0 4%;
+	input {
+		width: 100%;
+		height: 50upx;
+		color: #666;
+		font-weight: 200;
+		font-size: 28upx;
+	}
+}

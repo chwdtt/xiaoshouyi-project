@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/login/regsiter",
+    "pages/login/experience",
+    "pages/login/setting",
+    "pages/login/customSetting",
+    "pages/login/forgetPassWord"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "销售易",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "梅西第一版",
+  "compilerVersion": "1.9.3",
+  "usingComponents": {}
+}

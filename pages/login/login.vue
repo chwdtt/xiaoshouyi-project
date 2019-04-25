@@ -44,13 +44,14 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+	@import '../../static/common.scss';
 	// 最外层
 	.login-wrap {
 		background: linear-gradient(to bottom, #998fea 0%,#12057b 100%);
-		height: 93.4vh;
-		/* #ifdef MP-WEIXIN */
-			height: 100vh;
+		height: $pageHeight;
+		/* #ifdef H5 */
+			height: $pageHeightAndH5;
 		/* #endif */
 		display: flex;
 		flex-direction: column;
@@ -83,13 +84,13 @@
 				display: flex;
 				align-items: center;
 				border-radius: 45upx;
-				background-color: rgba($color: #ffffff, $alpha: 0.1);
+				background-color: $alpha1;
 				padding: 0 45upx;
 				margin-bottom: 26upx;
 				input {
 					width: 100%;
 					height: 50upx;
-					color: rgba($color: #ffffff, $alpha: 0.8);
+					color: $alpha8;
 					font-weight: 200;
 				}
 			}
@@ -107,7 +108,7 @@
 			.forgetPassWord {
 				text-align: center;
 				margin: 20upx 0;
-				color: rgba($color: #ffffff, $alpha: 0.8);
+				color: $alpha8;
 				font-size: 28upx;
 			}
 		}
@@ -117,7 +118,7 @@
 			display: flex;
 			justify-content: space-around;
 			font-size: 30upx;
-			color: rgba($color: #ffffff, $alpha: 0.8);
+			color: $alpha8;
 		}
 	}
 </style>

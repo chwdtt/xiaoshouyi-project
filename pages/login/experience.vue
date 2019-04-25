@@ -28,20 +28,21 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+	@import '../../static/common.scss';
 	.experience-wrap {
 		display: flex;
 		flex-direction: column;
 		background: #e8e8f1;
-		height: 93.4vh;
-		/* #ifdef MP-WEIXIN */
-			height: 100vh;
+		height: $pageHeight;
+		/* #ifdef H5 */
+			height: $pageHeightAndH5;
 		/* #endif */
 		.experience-info {
 			font-size: 28upx;
 			text-align: left;
 			padding: 30upx 4%;
-			color: rgba($color: #666, $alpha: 0.8);
+			color: $alphaBlack8;
 		}
 		.username {
 			width: 100%;

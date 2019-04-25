@@ -1,1 +1,1 @@
-<view class="nav-bar" bind:__l="__l"><view class="back"><navigator url="login">取消</navigator></view><view class="title">设置登录地址</view><view class="custom-address">+</view></view>
+<view class="nav-bar" bind:__l="__l"><view class="back"><navigator url="{{url}}">{{leftText}}</navigator></view><view class="title">{{title}}</view><view class="custom-address"><block wx:if="{{icon!=='false'}}"><navigator url="customSetting">{{icon}}</navigator></block></view></view>

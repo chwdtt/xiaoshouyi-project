@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"梅西第一版","entryPagePath":"pages/login/login.html","page":{"pages/login/login.html":{"window":{"navigationBarTitleText":"","navigationBarBackgroundColor":"#998fea","usingComponents":{}}},"pages/login/regsiter.html":{"window":{"navigationBarTitleText":"新用户注册","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{}}},"pages/login/experience.html":{"window":{"navigationBarTitleText":"快速体验","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{}}},"pages/login/setting.html":{"window":{"navigationBarTitleText":"设置登录地址","navigationBarBackgroundColor":"#FFFFFF","titleNView":false,"usingComponents":{"nav-bar":"/components/NavBar"}}},"pages/login/customSetting.html":{"window":{"navigationBarTitleText":"自定义登录地址","navigationBarBackgroundColor":"#FFFFFF","navigationStyle":"custom","titleNView":false,"usingComponents":{"nav-bar":"/components/NavBar"}}},"pages/login/forgetPassWord.html":{"window":{"navigationBarTitleText":"重置密码","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"销售易","navigationBarBackgroundColor":"#fff","backgroundColor":"#fff"}},"tabBar":{"color":"","selectedColor":"","backgroundColor":"","borderStyle":"black","list":[],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/login/login","pages/login/regsiter","pages/login/experience","pages/login/setting","pages/login/customSetting","pages/login/forgetPassWord"],"subPackages":[],"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"1.9.3","usingComponents":{}}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

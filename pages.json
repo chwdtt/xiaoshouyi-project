@@ -26,13 +26,22 @@
 			"style": {
 				"navigationBarTitleText": "设置登录地址",
 				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/customSetting",
+			"style": {
+				"navigationBarTitleText": "自定义登录地址",
+				"navigationBarBackgroundColor": "#FFFFFF",
 				"navigationStyle": "custom",
 				"app-plus": {
 					"titleNView": false
 				}
 			}
-		}
-        ,{
+		},{
             "path" : "pages/login/forgetPassWord",
             "style" : {
 				"navigationBarTitleText": "重置密码",

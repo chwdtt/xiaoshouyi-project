@@ -1,7 +1,6 @@
 {
   "navigationBarTitleText": "设置登录地址",
   "navigationBarBackgroundColor": "#FFFFFF",
-  "navigationStyle": "custom",
   "usingComponents": {
     "nav-bar": "/components/NavBar"
   }

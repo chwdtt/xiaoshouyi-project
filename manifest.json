@@ -1,5 +1,5 @@
 {
-    "name" : "xiaoshouyi-project",
+    "name" : "梅西第一版",
     "appid" : "__UNI__3A377FF",
     "description" : "",
     "versionName" : "1.0.0",
@@ -47,7 +47,15 @@
             },
             "ios" : {},
             /* ios打包配置 */
-            "sdkConfigs" : {}
+            "sdkConfigs" : {},
+            "icons" : {
+                "android" : {
+                    "mdpi" : "C:/Users/Administrator/Desktop/1.png"
+                },
+                "ios" : {
+                    "appstore" : "C:/Users/Administrator/Desktop/1.png"
+                }
+            }
         }
     },
     /* SDK配置 */
